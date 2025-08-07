@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>مجمع حلقات الفوزان</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      body {
+        margin: 0;
+        direction: rtl;
+        font-family: "Amiri", serif;
+      }
+
+      .header {
+        background-color: #64380d;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .logo {
+        width: 90px;
+      }
+
+      .lenks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .lenks a {
+        color: aliceblue;
+        text-decoration: none;
+      }
+
+      .lenks a:hover {
+        color: #b86614;
+      }
+
+      .amiri-regular {
+        font-family: "Amiri", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .landing-page {
+        background-color: #64380d;
+        display: flex;
+        align-items: center;
+        direction: rtl;
+        gap: 10px;
+        flex-direction: column;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .landing-page img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+
+      .landing-page h3 {
+        margin: 10px;
+      }
+
+      /* دعم الجوال */
+      @media (max-width: 600px) {
+        .header {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .lenks {
+          flex-direction: column;
+          gap: 5px;
+        }
+
+        .lenks a {
+          font-size: 16px;
+        }
+
+        .logo {
+          width: 70px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header lenks">
+      <a href="الفوزان.html"
+        ><img class="logo" src="imges/شعار جامع الرويل.png" alt="شعار" />
+      </a>
+      <div><h4><a href="test.html">لمحة عني</a></h4></div>
+      <div><h4><a href="#">الحلقات (للمتابعة)</a></h4></div>
+      <div><h4><a href="#">للتسجيل (جمعية مكنون)</a></h4></div>
+      <div>
+        <h4>
+          <a href="https://store.maknon.org.sa/ePdABKB">
+            التبرع للحلقة (جمعية مكنون)
+          </a>
+        </h4>
+      </div>
+      <div><h4><a href="#">للاستفسار أو التواصل</a></h4></div>
+    </div>
+
+    <div class="landing-page">
+      <div class="img-control">
+        <div class="img">
+          <img src="imges/الفوزان.jpg" alt="الفوزان" />
+        </div>
+      </div>
+      <span>مرحبا في مجمع حلقات الفوزان</span>
+
+      <h3>
+        تأسست حلقات الإمام يحيى بن معين بجامع الفوزان (الرويل سابقاً) لتحفيظ
+        القرآن الكريم عام 1425هـ
+      </h3>
+      <h3>
+        حيث حققت بفضل الله تعالى على مدى 20 عام المركز الأول لعدة أعوام في
+        اختبارات الجمعية
+      </h3>
+      <h3>
+        وتسعى لمساعدة الشباب على حفظ وتلاوة القرآن الكريم ومعرفة أحكامه ومعانيه
+        بطريقة سهلة وميسرة.
+      </h3>
+      <h3>وخرّجت الحفاظ والقراء ضمن برامج واضحة وخطط مدروسة..</h3>
+      <h3>تجاوز عدد الطلاب الخاتمين 180 خاتما خلال هذه المدة.</h3>
+      <h3>في هذا العام 1447هـ تجاوز عدد الطلاب ما يقارب 250 طالبا ، في 14 حلقة ،</h3>
+    </div>
+  </body>
+</html>
